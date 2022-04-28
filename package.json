@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "babel-jest": "^27.5.1",
+    "babel-loader": "^8.2.4",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-styled-components": "^2.0.7",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-module-utils": "^2.7.3",
+    "eslint-plugin-jest-formatting": "^3.1.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "eslint-plugin-sonarjs": "^0.13.0",
+    "eslint-plugin-storybook": "^0.5.8",
+    "typescript": "~4.6.3"
+  }
+}
