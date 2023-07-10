@@ -1,15 +1,17 @@
 const HelloThere = () => (
-    <Hello
-        role="searchbox"
-        frag={
-            <>
-                <div>Hello</div>
-                <div>There</div>
-            </>
-        }
-    />
-)
+  <Hello
+    role="checkbox"
+    frag={
+      <>
+        <div>Hello</div>
+        <>
+          <div>There</div>
+        </>
+      </>
+    }
+  />
+);
 
-const Hello = (props) => <div>{props.frag}</div>
+const Hello = () => null;
 
 export default HelloThere;

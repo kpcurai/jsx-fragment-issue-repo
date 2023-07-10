@@ -12,7 +12,9 @@
     "plugin:jest-formatting/strict"
   ],
   "parserOptions": {
-    "project": ["./tsconfig.json"],
+    "project": [
+      "./tsconfig.json"
+    ],
     "ecmaVersion": 2020
   }
 }
